@@ -36,6 +36,7 @@ namespace RTC
 		{ "vp8",             RtpCodecMimeType::Subtype::VP8             },
 		{ "vp9",             RtpCodecMimeType::Subtype::VP9             },
 		{ "h264",            RtpCodecMimeType::Subtype::H264            },
+		{ "ih264",           RtpCodecMimeType::Subtype::IH264           },
 		{ "x-h264uc",        RtpCodecMimeType::Subtype::X_H264UC        },
 		{ "h265",            RtpCodecMimeType::Subtype::H265            },
 		// Complementary codecs:
@@ -63,6 +64,7 @@ namespace RTC
 		{ RtpCodecMimeType::Subtype::VP8,             "VP8"             },
 		{ RtpCodecMimeType::Subtype::VP9,             "VP9"             },
 		{ RtpCodecMimeType::Subtype::H264,            "H264"            },
+		{ RtpCodecMimeType::Subtype::IH264,            "IH264"          },
 		{ RtpCodecMimeType::Subtype::X_H264UC,        "X-H264UC"        },
 		{ RtpCodecMimeType::Subtype::H265,            "H265"            },
 		// Complementary codecs:
