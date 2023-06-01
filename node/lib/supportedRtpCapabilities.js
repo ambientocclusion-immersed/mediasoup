@@ -204,6 +204,18 @@ const supportedRtpCapabilities = {
         },
         {
             kind: 'video',
+            mimeType: 'video/IH264',
+            clockRate: 90000,
+            rtcpFeedback: [
+                { type: 'nack' },
+                { type: 'nack', parameter: 'pli' },
+                { type: 'ccm', parameter: 'fir' },
+                { type: 'goog-remb' },
+                { type: 'transport-cc' }
+            ]
+        },
+        {
+            kind: 'video',
             mimeType: 'video/H264',
             clockRate: 90000,
             parameters: {
